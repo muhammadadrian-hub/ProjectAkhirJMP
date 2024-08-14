@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonSimpan" type="id" />
+    <item name="txtUsernamelg" type="id" />
+    <item name="buttonReg" type="id" />
+</resources>

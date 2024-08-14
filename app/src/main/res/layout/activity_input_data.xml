@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InputData">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:text="𝙵𝚘𝚛𝚖 𝙸𝚗𝚙𝚞𝚝 𝙳𝚊𝚝𝚊" />
+
+    <EditText
+        android:id="@+id/txtNama"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17mm"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Masukkan Nama" />
+
+    <EditText
+        android:id="@+id/txtUmur"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5mm"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Masukkan Umur" />
+
+    <EditText
+        android:id="@+id/txtMotto"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15mm"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Masukkan Motto" />
+
+    <Button
+        android:id="@+id/btnSv"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5mm"
+        android:backgroundTint="#38B304"
+        android:text="Simpan" />
+</LinearLayout>
